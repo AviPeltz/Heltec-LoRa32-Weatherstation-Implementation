@@ -20,7 +20,7 @@
 #include "heltec.h" 
 #include "images.h"
 
-#define BAND    433E6  //you can set band here directly,e.g. 868E6,915E6
+#define BAND    915E6  //you can set band here directly,e.g. 868E6,915E6
 String rssi = "RSSI --";
 String packSize = "--";
 String packet ;
