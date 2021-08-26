@@ -16,12 +16,13 @@
   
   this project also realess in GitHub:
   https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series
+  
 */
 
 #include "heltec.h"
 #include "images.h"
 
-#define BAND    868E6  //you can set band here directly,e.g. 868E6,915E6
+#define BAND    915E6  //you can set band here directly,e.g. 868E6,915E6
 
 unsigned int counter = 0;
 String rssi = "RSSI --";
@@ -72,7 +73,7 @@ void loop()
  *   - RF_PACONFIG_PASELECT_PABOOST -- LoRa single output via PABOOST, maximum output 20dBm
  *   - RF_PACONFIG_PASELECT_RFO     -- LoRa single output via RFO_HF / RFO_LF, maximum output 14dBm
 */
-  LoRa.setTxPower(14,RF_PACONFIG_PASELECT_PABOOST);
+  LoRa.setTxPower(14,RF_PACONFIG_PASELECT_PABOOST); 
   LoRa.print("hello ");
   LoRa.print(counter);
   LoRa.endPacket();
