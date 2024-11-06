@@ -10,12 +10,7 @@
   OLED_SCL -- GPIO15
   OLED_RST -- GPIO16
   
-  by Aaron.Lee from HelTec AutoMation, ChengDu, China
-  成都惠利特自动化科技有限公司
   https://heltec.org
-  
-  this project also realess in GitHub:
-  https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series
   
 */
 
